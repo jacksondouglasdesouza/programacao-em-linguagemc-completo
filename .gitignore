@@ -1,0 +1,20 @@
+# Ignorar executáveis gerados
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignorar arquivos de depuração
+*.pdb
+*.idb
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar configurações e backups do VS Code
+.vscode/
+*.code-workspace
+
+# Ignorar temporários do sistema
+.DS_Store
+Thumbs.db
