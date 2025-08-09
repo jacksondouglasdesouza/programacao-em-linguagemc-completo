@@ -60,3 +60,8 @@ dkms.conf
 
 # Debug information files
 *.dwo
+
+# CMake
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
