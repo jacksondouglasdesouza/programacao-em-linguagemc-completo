@@ -1,3 +1,10 @@
+# ==== Arquivos do CLion / IntelliJ ====
+.idea/
+cmake-build-*/
+*.iml
+
+# ==== Arquivos temporários de compilação (C/C++) ====
+
 # Prerequisites
 *.d
 
@@ -22,13 +29,13 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (incluindo DLLs no Windows)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+# Executáveis
 *.exe
 *.out
 *.app
@@ -51,5 +58,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# Debug information files
 *.dwo
